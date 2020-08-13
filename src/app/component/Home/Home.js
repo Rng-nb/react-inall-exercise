@@ -8,13 +8,13 @@ const Home = () => {
     <div className="desc">在线实用工具</div>
     <div className="option">
       <div className="calculator">
-        <img src={calculator}></img>
+        <div className="picture"><img src={calculator} /></div>
         <div>
           <Link to="/caculate" className="word">计算器</Link>
         </div>
       </div>
       <div className="timer">
-        <img src={timer}></img>
+        <div className="picture"><img src={timer} /></div>
         <div>
           <Link to="/count" className="word">倒计时器</Link>
         </div>
